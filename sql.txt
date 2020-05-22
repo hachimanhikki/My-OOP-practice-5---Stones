@@ -1,0 +1,19 @@
+CREATE TABLE stones (
+	stoneID int,
+	name varchar(42),
+	type decimal,
+	weight numeric,
+	car_cost numeric,
+	CONSTRAINT st_pk
+	primary key(stoneID)
+);
+insert into artist values
+(1, 'Ruby', 'precious', 2.4, 650),
+(2, 'Diamond', 'precious', 1.5, 1500),
+(3, 'Amethyst', 'semi-precious', 3, 100),
+(4, 'Emerald', 'precious', 1.9, 525),
+(5, 'Sapphire', 'precious', 2.2, 1000),
+(7, 'Aquamarine', 'semi-precious', 5.3, 25),
+(8, 'Tanzanite', 'semi-precious', 3.1, 300),
+(9, 'Zircon', 'semi-precious', 1.7, 42),
+(10, 'Opal', 'semi-precious', 6, 95);
